@@ -3,8 +3,6 @@
 #include <string.h>
 #include <stdlib.h>
 #define CLEAN_BUFFER fseek(stdin, 0, SEEK_END)
-//אופק שמש 313559601
-//ברק ליבוביץ 314772682
 
 int num_added = 0;  //Global integer that count how many people inserted to database.
 
@@ -159,7 +157,7 @@ void add_person(db_mgr* add)  // Function to collect all the person data and ins
 		scanf("%d", (int*)&temp->birthday.day);
 		CLEAN_BUFFER;
 	}
-	char choice; //בדיקת כן/לא
+	char choice; //ֳ¡ֳ£ֳ©ֳ·ֳ÷ ֳ«ֳ¯/ֳ¬ֳ 
 	printf("Does the person have a partner?(y/n):\n");
 	scanf("%c", &choice);
 	CLEAN_BUFFER;
